@@ -34,6 +34,7 @@
   "sb_other_details",
   "salary_slip",
   "color",
+  "vaction_mail",
   "column_break_17",
   "letter_head",
   "amended_from"
@@ -177,7 +178,6 @@
    "label": "Status",
    "no_copy": 1,
    "options": "Open\nApproved\nRejected\nCancelled",
-   "permlevel": 1,
    "reqd": 1
   },
   {
@@ -243,6 +243,11 @@
    "print_hide": 1,
    "read_only": 1
   },
+  {
+    "fieldname": "vaction_mail",
+    "fieldtype": "Data",
+    "label": "Vaction mail"
+   },  
   {
    "collapsible": 1,
    "fieldname": "sb_other_details",

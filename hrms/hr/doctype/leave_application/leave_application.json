@@ -11,9 +11,9 @@
   "naming_series",
   "employee",
   "employee_name",
+  "department",
   "column_break_4",
   "leave_type",
-  "department",
   "leave_balance",
   "section_break_5",
   "from_date",
@@ -33,6 +33,7 @@
   "posting_date",
   "follow_via_email",
   "color",
+  "vaction_mail",
   "column_break_17",
   "company",
   "letter_head",
@@ -174,7 +175,6 @@
    "label": "Status",
    "no_copy": 1,
    "options": "Open\nApproved\nRejected\nCancelled",
-   "permlevel": 1,
    "reqd": 1
   },
   {
@@ -243,6 +243,11 @@
    "options": "Leave Application",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "vaction_mail",
+   "fieldtype": "Data",
+   "label": "Vaction mail"
   }
  ],
  "icon": "fa fa-calendar",
@@ -250,10 +255,11 @@
  "is_submittable": 1,
  "links": [],
  "max_attachments": 3,
- "modified": "2020-05-18 13:00:41.577327",
+ "modified": "2024-05-29 11:55:29.826729",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Leave Application",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
@@ -333,6 +339,7 @@
  "search_fields": "employee,employee_name,leave_type,from_date,to_date,total_leave_days",
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "timeline_field": "employee",
  "title_field": "employee_name"
 }
